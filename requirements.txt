@@ -1,0 +1,10 @@
+opencv-python
+matplotlib
+civitdl
+python-dotenv
+einops
+torch
+transformers
+open_clip_torch
+omegaconf
+pytorch-lightning==1.5.0
