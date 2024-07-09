@@ -97,4 +97,4 @@ if __name__ == "__main__":
     trainer = pl.Trainer(gpus=1, precision=32, callbacks=[logger])
 
     # Train!
-    trainer.fit(model, dataloader)
+    trainer.fit(model, dataloader, ckpt_path="shoe_not_shoe_cn_logs/version_8/checkpoints/epoch=1-step=2629.ckpt")
